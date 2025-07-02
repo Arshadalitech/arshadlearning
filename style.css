@@ -1,0 +1,153 @@
+/* Here is the CSS of New Version Code  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand img {
+  width: 150px;
+}
+
+.navbar-brand {
+  margin-right: 50px;
+}
+
+.navbar {
+  box-shadow: 0px 3px 10px grey;
+}
+
+/* Main Heading and Tagline */
+.tagline-main {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0 10px;
+  display: block;
+}
+
+.main-heading {
+  font-size: 60px;
+  font-family: "Queens Medium";
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 1.75rem;
+  }
+
+  .header-btn {
+    display: none;
+  }
+}
+
+.show{
+  visibility: hidden;
+}
+/* Buttons */
+
+.button-1 {
+  background-color: #e04827;
+  color: white;
+  border: none;
+}
+.button-2{
+  color: #e04827;
+  border: 1px solid #e04827;
+}
+.button-1:hover {
+  background-color: #c14124;
+  text-decoration: none;
+}
+.button-2:hover {
+  background-color: #f0755947;
+  color:#c14124 ;
+  border: 1px solid #c14124;
+  text-decoration: none;
+}
+
+/* Header Button */
+.header-btn {
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  padding: 5px 20px;
+}
+
+/* Text under buttons */
+.main-bottom-tagline {
+  color: grey;
+  font-size: 14px;
+}
+
+/* Main Image */
+.main-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.box-card {
+  box-shadow: 2px 2px 5px grey;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.box-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.box-card a {
+  text-decoration: underline;
+  font-weight: 600;
+  color: #015FA3;
+}
+.box-icon .img-fluid{
+  max-width: 150px;
+}
+
+@media (max-width: 576px) {
+  .box-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* Here is the CSS of New Version Code Ended Here */
+
+
+/* Now Desiging Story Section Third section  */
+
+ 
+/* Video Image Section Classes  */
+
+
+.video-thumbnail {
+  max-width: 100%;
+}
+
+.video-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+  color: white;
+  text-shadow: 0 0 10px rgba(0,0,0,0.6);
+  z-index: 2;
+}
+
+.video-play-button:hover {
+  color: #f06543;
+  text-decoration: none;
+}
+
+
+.service-box a{
+  background-color: #FF5C36;
+}
